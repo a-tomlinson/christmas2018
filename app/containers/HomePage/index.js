@@ -28,6 +28,9 @@ export default class HomePage extends React.PureComponent {
           Christmas is coming...
         </H1>
         {moment() < revealDate && <CountDown date={revealDate} />}
+        <p>
+          If there's one thing BRB has taught me - it's all about the reveal
+        </p>
       </div>
     );
   }
