@@ -16,7 +16,6 @@ const GlobalStyle = createGlobalStyle`
   #app {
     background-color: black;
     color: #efefef;
-    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;

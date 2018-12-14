@@ -22,9 +22,6 @@ export default class HomePage extends React.PureComponent {
   render() {
     const revealDate = moment('20181221 19:00', 'YYYYMMDD HH:mm');
     // const revealDate = moment(); // used for testing
-    if (moment() > revealDate) {
-      console.log('revealed!');
-    }
 
     return (
       <div>
