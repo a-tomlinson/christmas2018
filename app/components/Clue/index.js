@@ -19,14 +19,19 @@ const Wrapper = styled.div`
 `;
 
 const Number = styled.div`
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   text-align: center;
-  font-size: 32px;
-  line-height: 32px;
+  font-size: 60px;
+  line-height: 60px;
   font-weight: bold;
   display: flex;
   align-items: center;
+`;
+
+const Body = styled.div`
+  font-size: 32px;
+  line-height: 32px;
 `;
 
 /* eslint-disable react/prefer-stateless-function */
@@ -36,7 +41,7 @@ class Clue extends React.Component {
     return (
       <Wrapper>
         <Number>{number}</Number>
-        <div>{this.props.children}</div>
+        <Body>{this.props.children}</Body>
       </Wrapper>
     );
   }
