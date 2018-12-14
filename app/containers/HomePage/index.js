@@ -11,7 +11,9 @@
 
 import React from 'react';
 import H1 from 'components/H1';
+import H2 from 'components/H2';
 import CountDown from 'components/CountDown';
+import Clue from 'components/Clue';
 import moment from 'moment';
 
 /* eslint-disable react/prefer-stateless-function */
@@ -25,12 +27,16 @@ export default class HomePage extends React.PureComponent {
       <div>
         <H1>
           Priyanka Parmar, <br />
-          Christmas is coming...
+          Your first clue has been revealed 🔎
         </H1>
         {moment() < revealDate && <CountDown date={revealDate} />}
         <p>
           If there's one thing BRB has taught me - it's all about the reveal
         </p>
+        <H2>Clues</H2>
+        <Clue number="01">🚶🚶🚶🚶🚶🚶🚶🚶🚶🚶🚶🚶🚶</Clue>
+        <Clue number="02">Coming Soon...</Clue>
+        <Clue number="03">Coming Soon...</Clue>
       </div>
     );
   }
