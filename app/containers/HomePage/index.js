@@ -40,9 +40,8 @@ export default class HomePage extends React.PureComponent {
         )}
         <H2>Clues</H2>
         <Clue number="01">🚶🚶🚶🚶🚶🚶🚶🚶🚶🚶🚶🚶🚶</Clue>
-        <Clue number="02">Revealed on Monday.</Clue>
+        <Clue number="02">@ O=O</Clue>
         <Clue number="03">Revealed on Wednesday.</Clue>
-        {/* <Clue number="02">@ O=O</Clue> */}
         {/* <Clue number="03">Jubilee</Clue> */}
       </div>
     );
