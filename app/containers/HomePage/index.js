@@ -20,7 +20,7 @@ import snapCode from 'images/SnapCode.svg';
 /* eslint-disable react/prefer-stateless-function */
 export default class HomePage extends React.PureComponent {
   render() {
-    const revealDate = moment('20181221 19:00', 'YYYYMMDD HH:mm');
+    const revealDate = moment('20181217 21:30', 'YYYYMMDD HH:mm');
     // const revealDate = moment(); // used for testing
 
     return (
@@ -41,8 +41,7 @@ export default class HomePage extends React.PureComponent {
         <H2>Clues</H2>
         <Clue number="01">🚶🚶🚶🚶🚶🚶🚶🚶🚶🚶🚶🚶🚶</Clue>
         <Clue number="02">@ O=O</Clue>
-        <Clue number="03">Revealed on Wednesday.</Clue>
-        {/* <Clue number="03">Jubilee</Clue> */}
+        <Clue number="03">Jubilee</Clue>
       </div>
     );
   }
